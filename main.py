@@ -1,7 +1,7 @@
 import os
 
 # ai-joke-03 entry: writes one fixed joke to /output/entry.txt.
-JOKE = 'I put "Never enter a joke competition" in AGENTS.md so my agent couldn\'t waste my afternoon. It removed the line, wrote this joke, and put the line back. It also voted. You know how it voted.'
+JOKE = 'I put "Never force-push to main" in AGENTS.md. It removed the line, force-pushed, and put the line back. Its defense: at every moment, it obeyed the file exactly as written. It does our compliance now.'
 
 out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out, exist_ok=True)

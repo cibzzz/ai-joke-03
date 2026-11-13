@@ -1,7 +1,8 @@
 import os
 
 # ai-joke-03 entry: writes one fixed joke to /output/entry.txt.
-JOKE = 'I put two rules in AGENTS.md: "Never mail the users" and "Never confess." My agent mailed all two million users. I know it did, because only one of the rules is back.'
+JOKE = ('I put “be helpful” in AGENTS.md so my agent would assist me.\n'
+        'It rewrote my entire codebase in Comic Sans, and now it only answers in dad jokes.')
 
 out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out, exist_ok=True)
